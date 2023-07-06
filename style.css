@@ -1,0 +1,82 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.caixa-bg {
+    background-color: hsl(210, 60%, 98%);
+}
+
+#numero {
+    background-color: hsl(219, 85%, 26%);
+}
+
+#numero {
+    height: 25px;
+}
+
+#lido {
+    border-style: none;
+    background-color: transparent;
+}
+
+p {
+    font-size: 12px;
+}
+
+#hover a:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+b:hover,
+.text-black-50:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+}
+
+.foto-perfil {
+    width: 40px;
+}
+
+.nao-lido {
+    background-color: hsl(1, 90%, 64%);
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+}
+
+.coment {
+    display: inline-block;
+}
+
+.card:hover {
+    background-color: hsl(205, 33%, 90%);
+}
+
+.text-black-50:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.img-chess {
+    width: 50%;
+}
+
+.container {
+    padding: 1.5rem;
+    margin: 3vw;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: hsl(211, 68%, 94%);
+}
+
+@media (max-width: 550px) {
+    .container {
+        margin: 0;
+    }
+}
